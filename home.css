@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+position: fixed;
+}
+
+header {
+
+    background-color: #FC7900;
+    height: 100px;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+
+}
+
+.pesqui{
+
+border-radius: 4px;
+width: 210px;
+height: 30px;
+position: relative;
+left: 3%;
+outline: 0;
+}
+.pesquisa > input{
+    border: none;
+}
+
+.pesquisa > ::placeholder{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.user {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    position: relative;
+    left: 20%;
+}
+
+main {
+    background-color: #FFCC8E;
+    height: 410px;
+}
+
+.name{
+    color: #ffffff;
+    font-family: 'Roboto', bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+}
+
+.Pizza{
+   display:flex;
+    background-color: red;
+   width: 50px;
+   height: 50px;
+   margin: 10px;
+   align-items: center;
+   border-radius:4px;
+   justify-content: center;
+   
+
+}
+
+.Pizza > img{
+   
+   width: 30px;
+   height: 30px;
+   align-items: center;
+
+}
+
+.produtos{
+
+  display: flex;
+  width: 50px;
+  height: 100px;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+
+.produtos1{
+    display: flex;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    left: 20%;
+    top: 10%; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.bebidas{
+    display: flex;
+    width: 50vh;
+    height: 100px;
+    position: relative;
+    left: 25%;
+    top: 12%;
+    border-radius: 10px;
+}
+.Cerveja{
+    position: relative;
+    left: 25%;
+    width: 38vh;
+    height: 100px;
+    bottom: 15%;
+    border-radius:10px ;
+}
+
+footer{
+    background-color: #FFCC8E;
+    position: fixed;
+    width: 375px;
+    height: 200px;
+}
+.footer2{
+    display: flex;
+    background-color: #FC7900;
+    width: 375px;
+    height: 100px;
+    position: relative;
+    bottom: 10%;
+    border-radius: 10px;
+    
+}
+.perso1 > img{
+width: 30px;
+height: 30px;
+
+}
+.perso2 > img{
+width: 30px;
+height: 30px;
+position: relative;
+margin-left: 20px;
+}
+.perso3 > img{
+width: 30px;
+height: 30px;
+}

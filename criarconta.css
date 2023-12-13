@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Frame\ 3.png);
+ 
+}
+.Finalizaçao{
+    display: flex;
+    align-items:center ;
+}
+.volta{
+    width: 10px;
+    height: 20px;
+    margin: 5px;
+}
+header{
+
+}
+.Conta{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', bold;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.h1{
+    font-family: 'Pattaya', sans-serif;
+    position: relative;
+    color: #ffffff;
+    font-size: 24px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+   position: absolute;
+   display: flex;
+   bottom: 5%;
+   left: 10%;
+    width: 300px;
+   height: 590px;
+   background-color: #FFCC8E;
+   align-items: center;
+   align-content: center;
+   border-radius: 20px;
+}
+.user{
+position: relative;
+height: 60px;
+width: 60px;
+border-radius: 100px;
+background-color: #C4C4C4;
+top: -44% ;  
+left: 40%; 
+align-items: center;
+align-content: center;
+}
+.user2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    left: 8%;  
+}
+.info{
+    position: absolute;
+    left: 7%;
+    top: 12%;
+    border-radius:20px;
+    align-content: center;
+    width: 260px;
+    height: 500px;
+    background-color: #ffffff;
+}
+.dados{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.input{
+    outline: 0;
+    border: none;
+}
+
+.linha1{
+    width: 200px;
+    height: 1px;
+    position: relative;
+    background-color: #C4C4C4;
+   margin: 10px;
+   left: 5%;
+}
+.botao{
+    position: relative;
+    font-family: 'Roboto', bold;
+    left: 20%;
+    color: #ffffff;
+    top: 20%;
+    width: 150px;
+    height: 50px;
+    background-color: #199570;
+    align-items: center;
+    border-radius:10px ;
+}
+.home{
+    
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', bold;
+    align-items: center;
+    left: 18%;
+    top: 25%;
+    
+}
+
+
